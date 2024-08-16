@@ -1,0 +1,81 @@
+:root{
+    --verde:rgb(12, 92, 20);
+    --blanco:#fff;
+    --gris:rgb(212, 197, 197);
+    --negro:black;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    max-width: 430px;
+    height: 80vh;
+    margin: 40px auto;
+    
+  }
+  .encabezado{
+    padding: 40px;
+    background-color: rgb(12, 92, 20);
+    color: white;
+    flex-direction: row;
+    justify-content:flex-start ;
+ 
+  
+   
+}
+
+  .iconos{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+  }
+
+.contenedor{
+    background-color: var(--verde);
+
+}
+  .flex{
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color:var(--blanco);
+    background:var(--verde);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around ;
+   
+ }
+
+    .chats{
+        border: solid rgb(212, 197, 197) 1px;
+        padding: 20px;
+    }
+
+ .chats{
+    color: black;
+    background-color:var(--blanco);
+    flex-direction: column;
+    }
+
+ .img{
+    width: 50px;
+   height: 50px;
+   display: block;
+   border-radius: 30px;
+   }
+   .imagenes{
+    background-color: var(--blanco);
+   }
+
+ 
+
+
+

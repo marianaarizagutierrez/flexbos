@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .contenedor {
+    margin: 0 auto;
+    height: 100vh;
+    background: rgb(225, 131, 211);
+    max-width: 1250px;
+    display: flex;
+    flex-direction: row;
+    border: solid 4px rgb(190, 66, 194);
+    justify-content: start;
+    justify-content: flex-end;
+    justify-content: center;
+  
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+  }
+  
+  .item {
+    width: 200px;
+    height: 500px;
+    background: rgb(236, 164, 236);
+    text-align: center;
+    border-radius: 7px;
+    border: solid 3px rgb(225, 131, 211);
+  }

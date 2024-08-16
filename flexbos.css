@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .contenedor {
+    background: rgb(0, 0, 0);
+    width: 2500px;
+    padding: 20px;
+  }
+  .items {
+    color: white;
+  }
+  
