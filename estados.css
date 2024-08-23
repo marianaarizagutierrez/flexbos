@@ -33,12 +33,6 @@
     
    }
 
-   .wsp{
-    flex-direction: row;
-    justify-content:flex-start ;
-
-   }
-
   .iconos{
     
     display: flex;
@@ -48,7 +42,7 @@
   }
 
 .contenedor{
-    background-color: var(--verde);
+    background-color: var(--azul);
 
 }
   .flex{
@@ -63,29 +57,22 @@
     justify-content:space-around ;
    
  }
-  
-
-    .chats{
-        padding: 20px;
-        
-    }
-
- .chats{
-    color: black;
-    background-color:var(--blanco);
-    flex-direction: column;
-    }
-
  .img{
     width: 50px;
    height: 50px;
    display: block;
-   border-radius: 30px;
-   }
- .nombres{
-  background-color: var(--azul);
- }
+   border-radius: 30px ;
+   border-color: black;
+  
 
+   }
+   label{
+    display: block;
+    padding:5px ; 
+   }
+  
+  
+ 
 
 
 

@@ -65,16 +65,6 @@
  }
   
 
-    .chats{
-        padding: 20px;
-        
-    }
-
- .chats{
-    color: black;
-    background-color:var(--blanco);
-    flex-direction: column;
-    }
 
  .img{
     width: 50px;
@@ -82,9 +72,14 @@
    display: block;
    border-radius: 30px;
    }
- .nombres{
-  background-color: var(--azul);
- }
+   .LLAMADAS{
+    background-color: var(--azul);
+   }
+
+   .llamadas{
+  
+    
+   }
 
 
 
