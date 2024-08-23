@@ -19,6 +19,7 @@
     height: 80vh;
     margin: 40px auto;
     font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
   }
 
 
@@ -30,6 +31,8 @@
     color: white;
     flex-direction: row;
     justify-content:flex-end ;
+    overflow-x: hidden;
+   
     
    }
 

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .contenedor {
+    margin: 0 auto;
+    background-color: rgb(212, 198, 225);
+    width: 950px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+    
+ }
+
+  .item {
+    display: flex;
+   width: 200px;
+   height: 200px;
+    text-align: center;
+    place-content: center;
+
+
+  }
+
+    
+  .item:nth-child(){
+    background-color: rgb(64, 96, 97);
+   flex-grow: 1;
+   background-color: black;}
+  
+  .item:nth-child(2){
+    background-color: rgb(64, 96, 97);
+    flex-shrink: 5;
+    flex-basis: 100px;
+  }
+    
+  .item:nth-child(3){
+    background-color: rgb(64, 96, 97);
+    flex-grow: 1;
+    background-color:brown;
+}
